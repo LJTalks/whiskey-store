@@ -1,3 +1,8 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding-left: initial;
+}
+
 body {
     .roboto-regular {
         font-family: "Roboto", sans-serif;
@@ -13,7 +18,20 @@ body {
 
 }
 
+.hr-orange {
+    color: #f05f40;
+}
+
 /* Containers */
+
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
 
 .alert-container .col-12 {
     padding-left: 0;
@@ -76,7 +94,30 @@ p {
 }
 
 
-.features-container {}
+.features-container {
+    text-align: center;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+margin-top: 0;
+}
+
+.h2
+.text-uppercase {
+    text-align: center;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
 
 /* block-divider */
 
@@ -84,19 +125,34 @@ p {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 35px;
 }
 
-.badge {
-    background-color: #f05f40;
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
+
+.badge {
+    background-color: white;
+    color: #f05f40;
+}
+
+
 
 /* Navbar */
 .navalert-container {
@@ -182,3 +238,41 @@ mark {
     background-color: #ffd8d8;
     border-color: #f05f40;
 }
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 .2rem #ffd8d8;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: #df4929;
+    border-radius: 5px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #df4929;
+    margin-top: 10px;
+
+}
+/* Table */
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ffd8d8
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #f05f40;
+    
