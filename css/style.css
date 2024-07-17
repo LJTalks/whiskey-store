@@ -13,7 +13,6 @@ body {
 
 }
 
-
 /* Containers */
 
 .alert-container .col-12 {
@@ -27,6 +26,21 @@ body {
     padding: 5px 15px;
     background-color: #ffd8d8;
     border-color: #ffd8d8;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    margin-left: 2rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
 }
 
 .callout-container {
@@ -53,7 +67,14 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {}
+.quotes-container p {
+
+}
+
+.text-uppercase {
+    padding-left: 2rem;
+}
+
 
 .features-container {}
 
@@ -71,6 +92,10 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+.badge {
+    background-color: #f05f40;
 }
 
 /* Navbar */
@@ -115,7 +140,9 @@ body {
 
 .jumbotron .lead {
     margin: 24px;
-    color: #a7a7a7;
+    color: #ffffff;
+        font-size: 1.25rem;
+        font-weight: 300;
 }
 
 .jumbotron small {
@@ -147,4 +174,11 @@ mark {
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
+}
+
+
+.btn-success {
+    color: #000000;
+    background-color: #ffd8d8;
+    border-color: #f05f40;
 }
