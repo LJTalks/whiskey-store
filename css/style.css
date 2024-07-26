@@ -271,6 +271,12 @@ mark {
     background-color: #ffd8d8
 }
 
+/* To override the grey border?*/
+.table thead th {
+    vertical-align: bottom;
+    /* border-bottom: 2px solid #dee2e6; */
+}
+
 .table td, .table th {
     padding: .75rem;
     vertical-align: top;
