@@ -192,6 +192,7 @@ margin-top: 0;
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+    padding-top: 90px;
 }
 
 .jumbotron .lead {
@@ -274,7 +275,7 @@ mark {
 /* To override the grey border?*/
 .table thead th {
     vertical-align: bottom;
-    /* border-bottom: 2px solid #dee2e6; */
+    border-bottom: 1px solid #f05f40;
 }
 
 .table td, .table th {
