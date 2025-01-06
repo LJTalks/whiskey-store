@@ -36,18 +36,18 @@
                 <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/home">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Whiskeys
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Irish</a>
-                            <a class="dropdown-item" href="#">Scotch</a>
-                            <a class="dropdown-item" href="#">Japanese</a>
-                            <a class="dropdown-item" href="#">American</a>
+                            <a class="dropdown-item" href="https://amzn.to/3WaVm5k" target="_blank" rel="nofollow sponsored noopener noreferrer">Irish</a>
+                            <a class="dropdown-item" href="https://amzn.to/4fM3u2Y" target="_blank" rel="nofollow sponsored noopener noreferrer">Scotch</a>
+                            <a class="dropdown-item" href="https://amzn.to/402rF7z" target="_blank" rel="nofollow sponsored noopener noreferrer">Japanese</a>
+                            <a class="dropdown-item" href="https://amzn.to/429ZfuO" target="_blank" rel="nofollow sponsored noopener noreferrer">American</a>
                         </div>
                     </li>
                     <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up!</a>
@@ -56,7 +56,7 @@
             </div>
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
-                <a href="/login" class="btn btn-cta btn--red">Sign In / Sign Up!</a>
+                <a href="/" class="btn btn-cta btn--red">Sign In / Sign Up!</a>
                 <!-- This button is broken?
                 content-container
                 <p><button class="btn btn-lg btn-success btn--red" data-toggle="modal"
@@ -286,6 +286,23 @@
             </div>
         </div>
     </div>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-2">
+            &copy; <span id="currentYear"></span> Built by <a href="https://ljmedia.co.uk">LJ Media</a> . All rights reserved.
+        </p>
+        <p class="mb-2">
+            Created as part of the Code Institute Full-Stack Developer Program.
+        </p>
+        <p class="mb-2">
+            Disclaimer: This site contains affiliate links. As an Amazon Associate, we earn from qualifying purchases.
+        </p>
+    </footer>
+    
+    <script>
+        // Set the current year dynamically
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
